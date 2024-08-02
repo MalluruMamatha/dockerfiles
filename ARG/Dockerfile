@@ -5,5 +5,6 @@ FROM almalinux:${version:-9}
 # command-----> docker build -t <image name>:v1 --build-arg version=8 .
 
 ARG trainer=mamatha
-ENV trainer="siva"
+ENV course=devops
+RUN echo "courese is:${course},trainer is:${trainer}"
 CMD [ "sleep", "100" ]  
