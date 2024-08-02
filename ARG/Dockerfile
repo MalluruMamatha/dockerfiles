@@ -7,4 +7,4 @@ FROM almalinux:${version:-9}
 ARG trainer=mamatha
 ENV course=devops
 RUN echo "courese is:${course},trainer is:${trainer}"
-CMD [ "sleep", "100" ]  
+CMD [ "sleep", "500" ]  
